@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.container {
+    width: 320px;
+    height: 700px;
+    background: linear-gradient(to bottom, #1c4d44, #276b5e);
+    border-radius: 30px;
+}
+
+.size-container {
+    width: 200px;
+    height: 200px;
+}
+
+.rounded-square {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.05) 90%, transparent 100%);
+    border-radius: 50px;
+}
+
+.app-rotate-10 {
+    transform: rotate(10deg);
+}
+
+.app-rotate-30 {
+    transform: rotate(30deg);
+}
+
+.app-rotate-40 {
+    transform: rotate(40deg);
+}
+
+.app-rotate-60 {
+    transform: rotate(60deg);
+}
+
+.ellipse {
+    width: 230px;
+    height: 230px;
+    background: #edae11;
+    clip-path: ellipse(30% 50% at 50% 50%);
+    transform: rotate(90deg);
+}
+
+.blur-bg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    background: radial-gradient(transparent 50%,white 100%);
+}
+
+svg.track {
+    width: 210px;
+    height: 210px;
+    transform: rotate(-90deg);
+}
+
+circle.circle-progress {
+    fill: none;
+    stroke: rgba(255,255,255,0.5);
+    stroke-width: 4px;
+    cx: 50%;
+    cy: 50%;
+    r: 98;
+    stroke-dasharray: 880;
+    stroke-dashoffset: 570;
+}
+
+circle.pointer {
+    fill: white;
+    stroke: #edae11;
+    cx: 50%;
+    cy: 50%;
+    r: 5;
+    transform: rotate(180deg) translate(97px);
+    transform-origin: center;
+    stroke-width: 4px;
+}
+
+circle.progress {
+    r:23;
+    cx:50%;
+    cy:50%;
+    fill: #4e8c7f;
+    stroke: #EDAE11;
+    stroke-width: 2;
+    stroke-dasharray: 144;
+    stroke-dashoffset: 20;
+}
+
+.app-font-orbitron {
+    font-family: 'Orbitron';
+}
+
+.app-bg-yellow {
+    background: #EDAE11;
+}
+
+.app-bg-green-1 {
+    background: #3B7F72;
+}
+
+.app-bg-green-2 {
+    background: #357368;
+}
+
+.app-color-yellow {
+    color: #EDAE11
+}
+
+.app-color-half-white {
+    color: rgba(255,255,255,0.25);
+}
+
+.app-shadow {
+    box-shadow: 0 5px 25px 0px rgba(0, 0, 0, 0.1);
+}
